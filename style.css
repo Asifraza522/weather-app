@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #222;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background-color:rgb(15, 135, 175);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 34px ;
+    text-align: center;
+    al
+
+}
+.search img{
+    width: 20px;
+    height: 20px;
+} 
+.weatherType img{
+    padding: 10px 0 0 0;
+    width: 92px;
+    height: 65px;
+}
+/*.humidity{
+    display: flex;
+    align-items: center;
+}*/
+.humidity,.humidity p{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.humidity img{
+    width: 70px;
+}
+/*.windSpeed{
+    display:flex;
+    align-items: center;
+}*/
+.windSpeed,.windSpeed p{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.windSpeed img{
+    width: 70px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
